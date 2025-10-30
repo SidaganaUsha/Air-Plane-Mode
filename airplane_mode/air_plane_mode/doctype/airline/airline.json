@@ -15,8 +15,7 @@
    "fieldname": "founding_year",
    "fieldtype": "Int",
    "label": "Founding Year",
-   "non_negative": 1,
-   "reqd": 1
+   "non_negative": 1
   },
   {
    "fieldname": "customer_care_number",
@@ -40,7 +39,7 @@
    "link_fieldname": "airline"
   }
  ],
- "modified": "2025-10-28 17:04:35.045063",
+ "modified": "2025-10-30 10:29:15.937006",
  "modified_by": "Administrator",
  "module": "Air Plane Mode",
  "name": "Airline",

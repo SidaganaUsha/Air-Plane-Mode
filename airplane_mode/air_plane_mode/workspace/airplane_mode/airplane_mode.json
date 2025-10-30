@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"7x5ISe-TK_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Airplane Mode</span>\",\"col\":12}},{\"id\":\"Y2Rha7AfaM\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airplane\",\"col\":3}},{\"id\":\"N6kuTCp08p\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airport\",\"col\":3}},{\"id\":\"YWbcRKfCCf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airline\",\"col\":3}},{\"id\":\"hlqPbMTpWu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airplane Ticket\",\"col\":3}},{\"id\":\"-DL70L6JeT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Flight Passenger\",\"col\":3}}]",
+ "content": "[{\"id\":\"7x5ISe-TK_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Airplane Mode</span>\",\"col\":12}},{\"id\":\"Y2Rha7AfaM\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Airplanes\",\"col\":3}},{\"id\":\"YWbcRKfCCf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airlines\",\"col\":3}},{\"id\":\"-DL70L6JeT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Passengers\",\"col\":3}}]",
  "creation": "2025-10-28 17:20:46.387619",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,7 +12,7 @@
  "is_hidden": 0,
  "label": "Airplane Mode",
  "links": [],
- "modified": "2025-10-28 17:24:25.893214",
+ "modified": "2025-10-28 17:27:41.873945",
  "modified_by": "Administrator",
  "module": "Air Plane Mode",
  "name": "Airplane Mode",
@@ -27,7 +27,7 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Airplane",
+   "label": "All Airplanes",
    "link_to": "Airplane",
    "stats_filter": "[]",
    "type": "DocType"
@@ -35,32 +35,16 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Airport",
-   "link_to": "Airport",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Airline",
-   "link_to": "Airline",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Airplane Ticket",
-   "link_to": "Airplane Ticket",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Flight Passenger",
+   "label": "All Passengers",
    "link_to": "Flight Passenger",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Airlines",
+   "link_to": "Airline",
    "stats_filter": "[]",
    "type": "DocType"
   }
