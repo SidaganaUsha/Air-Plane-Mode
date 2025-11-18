@@ -133,7 +133,7 @@
    "default": "0",
    "fieldname": "is_published",
    "fieldtype": "Check",
-   "label": "Is Published"
+   "label": "Is Published?"
   }
  ],
  "grid_page_length": 50,
@@ -147,7 +147,7 @@
    "link_fieldname": "flight"
   }
  ],
- "modified": "2025-11-11 15:47:28.928134",
+ "modified": "2025-11-14 16:33:51.602494",
  "modified_by": "Administrator",
  "module": "Air Plane Mode",
  "name": "Airplane Flight",
@@ -171,7 +171,9 @@
  "route": "flights",
  "row_format": "Dynamic",
  "rows_threshold_for_grid_search": 20,
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "airplane"
 }

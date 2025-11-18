@@ -1,4 +1,30 @@
-<div>
+<!--<div>
 	<a href="{{ doc.route }}">{{ doc.title or doc.name }}</a>
 </div>
-<!-- this is a sample default list template -->
+ this is a sample default list template -->
+
+
+<div class="card p-3 my-3">
+  {% set airplane = frappe.get_doc("Airplane", doc.airplane) %}
+  {% if airplane.airline %}
+    {% set airline = frappe.get_doc("Airline", airplane.airline) %}
+  {% endif %}
+
+  <h4>{{ airline.name if airline else "Unknown Airline" }}</h4>
+  <p>{{ doc.source_airport_code }} → {{ doc.destination_airport_code }}</p>
+  <p>
+    {{ frappe.format_date(doc.date_of_departure, "d MMM, YYYY") }}
+    | {{ doc.time_of_departure }}
+    | {{ frappe.utils.format_duration(doc.duration) }}
+    
+  </p>
+ {% if doc.route %}
+  <a href="{{ doc.route }}"
+     style="background-color: white; color: #0d6efd; text-align: left;">
+    View Flight
+  </a>
+{% endif %}
+
+</div>
+
+
